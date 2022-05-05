@@ -1,0 +1,21 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+// .navbar{
+//   height:58px; 
+// }
+// .carousel-item{
+//    height: 450px;
+// }
+.row{
+  width: 1080px;
+  height: 863px;
+}
+// $carousel-dark-indicator-active-bg:$white;
+
+@include media-breakpoint-down(xl) {
+    .row {
+     width: auto;
+     height: auto;
+    }
+  }
+

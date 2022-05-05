@@ -1,0 +1,14 @@
+.box{
+    width: 50%;
+    height: 50%;
+    border: 1px solid blue;
+}
+.container-fluid{
+  border: 1px solid blue;
+}
+
+/* @include media-breakpoint-up(sm) {
+    .box {
+      border:1px solid red;
+    }
+  } */
