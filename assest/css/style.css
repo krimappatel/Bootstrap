@@ -11,8 +11,8 @@ body{
   background-color:#F8F9FA;
   border-radius: 4px;
   font-weight: 400;
-font-size: 16px;
-line-height: 23px;
+  font-size: 16px;
+  line-height: 23px;
 }
 .heading{
   height: 24px;
@@ -53,7 +53,7 @@ line-height: 23px;
   text-align: center;
 }
 .icon-left{
-  position: absolute;
+  /* position: absolute; */
   left: 38px;
   width: 13.5px;
   height: 18px;
@@ -77,7 +77,6 @@ line-height: 23px;
   margin-right: 165px;
   /* top: 559px; */
   margin-top: 51px;
-  /* border: 1px solid black; */
 }
 .info{
 /* position: absolute; */
@@ -95,7 +94,6 @@ line-height: 36px;
   margin-top: 80px;
   margin-bottom: 0px;
   background-color:#6C757D;
-  ;
 }
 .image{
   height: 157px;
@@ -123,18 +121,79 @@ line-height: 36px;
   height: 115px;
   padding-left: 16px;
 }
-@media only screen and (max-width: 1440px) {
+@media (min-width:1200px) {
+  .navbar-custom{
+    width: auto;
+   }
+   .carousel-custom{
+     height: auto;
+     width: auto;
+   }
+   .box{
+     width: auto;
+     height: auto;
+     margin: 4%;
+   }
+   .card-box{
+    width: 33.33%;
+    height: auto;
+    /* margin: 2%; */
+    margin-top: auto;
+    margin-left: auto;
+    /* margin-right: auto; */
+  }
+  .card-info,.image{
+    width: auto;
+    height: auto;
+  }
+}
+@media (max-width: 1199px) { 
+  .navbar-custom{
+    width: auto;
+   }
+   .carousel-custom{
+     height: auto;
+     width: auto;
+   }
+   .box{
+     width: auto;
+     height: auto;
+     margin: 4%;
+   }
+   .card-box{
+    width: 45%;
+    height: auto;
+    /* margin: 2%; */
+    margin-top: auto;
+    margin-left: auto;
+    /* margin-right: auto; */
+  }
+  .info{
+    margin-left: 3%;
+  }
+  .card-info,.image{
+    width: auto;
+    height: auto;
+  }
+}
+@media (max-width: 767.98px) {
   .navbar-custom{
    width: auto;
+  }
+  .carousel-custom{
+    height: auto;
+    width: auto;
   }
   .box{
     width: auto;
     height: auto;
-    left: 5%;
-    right: 5%;
-    top:auto;
+    padding:2%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: auto;
   }
-  .carousel-custom{
+  .card-box,.card-info,.image{
+    width: auto;
     height: auto;
   }
 }
